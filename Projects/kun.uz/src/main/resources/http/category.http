@@ -1,0 +1,25 @@
+### CREATE CATEGORY
+POST localhost:8080/category/create
+Content-Type: application/json
+
+{
+  "orderNumber": 1,
+  "nameUz": "Mahalliy",
+  "nameRu": "местный",
+  "nameEn": "Local"
+}
+
+### UPDATE CATEGORY
+PUT localhost:8080/category/update/6efc3f17-247a-41dc-83ab-7e195ea0975d
+Content-Type: application/json
+
+{
+  "nameUz": ""
+}
+
+### DELETE CATEGORY
+DELETE localhost:8080/category/delete/6efc3f17-247a-41dc-83ab-7e195ea0975d
+
+### GET ALL CATEGORY BY LANGUAGE
+GET localhost:8080/category/lang
+Accept-Language: RU

@@ -1,0 +1,28 @@
+### CREATE REGION
+POST localhost:8080/region/create
+Content-Type: application/json
+
+{
+  "orderNumber": 1,
+  "nameUz": "Mahalliy",
+  "nameRu": "местный",
+  "nameEn": "Local"
+}
+### UPDATE REGION
+PUT localhost:8080/region/update/8cc424ae-7194-45e8-a985-aef516a029a6
+Content-Type: application/json
+
+{
+  "nameUz": "Milliy"
+}
+
+### DELETE REGION
+DELETE localhost:8080/region/delete/8cc424ae-7194-45e8-a985-aef516a029a6
+
+### GET ALL REGION
+GET localhost:8080/region/all
+
+### GET ALL REGION BY LANGUAGE
+GET localhost:8080/region/lang
+Accept-Language: RU
+
