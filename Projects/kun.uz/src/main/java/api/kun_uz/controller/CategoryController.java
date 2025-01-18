@@ -1,10 +1,8 @@
 package api.kun_uz.controller;
 
-import api.kun_uz.dto.RegionUpdateDTO;
 import api.kun_uz.dto.category.CategoryCreateDTO;
 import api.kun_uz.dto.category.CategoryResponseDTO;
 import api.kun_uz.dto.category.CategoryUpdateDTO;
-import api.kun_uz.dto.region.RegionResponseDTO;
 import api.kun_uz.enums.Language;
 import api.kun_uz.mapper.CategoryMapper;
 import api.kun_uz.service.CategoryService;

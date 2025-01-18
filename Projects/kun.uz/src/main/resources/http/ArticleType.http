@@ -1,0 +1,29 @@
+### CREATE ARTICLE TYPE
+POST localhost:8080/article-type/create
+Content-Type: application/json
+
+{
+  "orderNumber": 3,
+  "nameUz": "Asosiy",
+  "nameRu": "основной",
+  "nameEn": "Main"
+}
+
+### UPDATE ARTICLE TYPE
+PUT localhost:8080/article-type/update/8709c593-4c17-41ea-917c-cd62eab4fcab
+Content-Type: application/json
+
+{
+  "nameUz": "Milliy"
+}
+
+### DELETE ARTICLE TYPE
+DELETE localhost:8080/article-type/delete/8709c593-4c17-41ea-917c-cd62eab4fcab
+
+### GET ALL ARTICLE TYPES
+GET localhost:8080/article-type/all?page=1&size=3
+
+### GET ALL ARTICLE TYPE BY LANGUAGE
+GET localhost:8080/article-type/lang
+Accept-Language: EN
+

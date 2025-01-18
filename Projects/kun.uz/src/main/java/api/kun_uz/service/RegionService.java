@@ -1,6 +1,6 @@
 package api.kun_uz.service;
 
-import api.kun_uz.dto.RegionUpdateDTO;
+import api.kun_uz.dto.region.RegionUpdateDTO;
 import api.kun_uz.dto.region.RegionCreateDTO;
 import api.kun_uz.dto.region.RegionResponseDTO;
 import api.kun_uz.entity.RegionEntity;
@@ -9,7 +9,6 @@ import api.kun_uz.exception.ValueNotFoundException;
 import api.kun_uz.repository.RegionRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 

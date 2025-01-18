@@ -1,4 +1,4 @@
-package api.kun_uz.dto;
+package api.kun_uz.dto.region;
 
 public class RegionUpdateDTO {
     private String nameUz;

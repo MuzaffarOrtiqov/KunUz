@@ -1,14 +1,11 @@
 package api.kun_uz.controller;
 
-import api.kun_uz.dto.RegionUpdateDTO;
+import api.kun_uz.dto.region.RegionUpdateDTO;
 import api.kun_uz.dto.region.RegionCreateDTO;
 import api.kun_uz.dto.region.RegionResponseDTO;
-import api.kun_uz.entity.RegionEntity;
 import api.kun_uz.enums.Language;
 import api.kun_uz.service.RegionService;
-import api.kun_uz.util.ResponseUtil;
 import jakarta.validation.Valid;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
